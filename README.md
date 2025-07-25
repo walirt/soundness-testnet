@@ -21,20 +21,22 @@ English | [中文](https://github.com/walirt/soundness-testnet/blob/main/README_
     alias soundness-cli="docker run -it --rm -v $PWD:/app walirt/soundness-cli:v0.1.2" 
     ```
 
-7. If you have saved the wallet mnemonic phrase previously bound in Discord, run the following command to import it  
+7. (Option 1) If you have saved the wallet mnemonic phrase previously bound in Discord, run the following command to import it  
     ```bash
     # Import mnemonic phrase
     soundness-cli import-key --name wallet-name --mnemonic "mnemonic phrase"
     # View all wallets
     soundness-cli list-keys
     ```
-8. If you lost the wallet mnemonic phrase previously bound in Discord, run the following command to regenerate it  
+
+8. (Option 2) If you lost the wallet mnemonic phrase previously bound in Discord, run the following command to regenerate it  
     ```bash
     # Generate new wallet
     soundness-cli generate-key --name wallet-name
     # View all wallets
     soundness-cli list-keys
     ```
+
 9. Paste the previously copied command, and replace `<your-key-name>` with the wallet name from above  
 ![](https://github.com/walirt/soundness-testnet/blob/main/6.png?raw=true)
 10. If the response message shows `Status: SUCCESS`, it means success. You can open the `Suiscan Link` to view the TX  

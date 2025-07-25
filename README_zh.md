@@ -21,20 +21,22 @@
     alias soundness-cli="docker run -it --rm -v $PWD:/app walirt/soundness-cli:v0.1.2" 
     ```
 
-7. 如果你有保存之前在 Discord 绑定的钱包助记词，运行以下命令导入  
+7. （选项一）如果你有保存之前在 Discord 绑定的钱包助记词，运行以下命令导入  
     ```bash
     # 导入助记词
     soundness-cli import-key --name 钱包名字 --mnemonic "助记词"
     # 查看所有钱包
     soundness-cli list-keys
     ```
-8. 如果你丢失了之前在 Discord 绑定的钱包助记词，运行以下命令重新生成  
+
+8. （选项二）如果你丢失了之前在 Discord 绑定的钱包助记词，运行以下命令重新生成  
     ```bash
     # 生成新钱包
     soundness-cli generate-key --name 钱包名字
     # 查看所有钱包
     soundness-cli list-keys
     ```
+
 9. 粘贴之前在复制的命令，把 `<your-key-name>` 修改成上面的钱包名字  
 ![](https://github.com/walirt/soundness-testnet/blob/main/6.png?raw=true)
 10. 回显消息为 `Status: SUCCESS` 则为成功，可以打开 `Suiscan Link` 链接查看TX  
