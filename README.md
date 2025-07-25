@@ -6,7 +6,7 @@ English | [中文](https://github.com/walirt/soundness-testnet/blob/main/README_
 ![](https://github.com/walirt/soundness-testnet/blob/main/1.png?raw=true)
 2. Click "Launch Game" in the reply message to open the website  
 ![](https://github.com/walirt/soundness-testnet/blob/main/2.png?raw=true)
-3. Refer to the following images to place the pieces and complete the game. After completion, you will receive a private message from the Sound_Game bot  
+3. Refer to the following images to place the pieces and complete the game. After completion, you will receive a DM from the Sound_Game bot  
 ![](https://github.com/walirt/soundness-testnet/blob/main/3.png?raw=true)
 4. Click the `Generate Ligero Proof` button to generate proof. After completion, you will automatically receive the Discord `Sound OG` role  
 ![](https://github.com/walirt/soundness-testnet/blob/main/4.png?raw=true)
