@@ -12,7 +12,7 @@
 ![](https://github.com/walirt/soundness-testnet/blob/main/4.png?raw=true)
 5. 点击证明消息复制命令按钮复制命令  
 ![](https://github.com/walirt/soundness-testnet/blob/main/5.png?raw=true)
-6. 打开服务器，确保你已经安装docker，运行以下命令  
+6. 打开服务器，确保你已经安装Docker，运行以下命令  
     ```bash
     # 拉取 soundness-cli 镜像
     docker pull walirt/soundness-cli:v0.1.2
